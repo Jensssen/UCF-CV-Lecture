@@ -1,0 +1,7 @@
+To start a new jupyter server: 
+	- Open CMD
+	- Move to your workspace folder
+	- Run the following command to start a new Jupyter Server (LocalHost:8888)
+		-> jupyter notebook
+	- Do not close the CMD. It needs to run in background while working with jupyter
+	- Click on "New" (Top right corner) to start a new Notebook/Kernal and choose Python 3
