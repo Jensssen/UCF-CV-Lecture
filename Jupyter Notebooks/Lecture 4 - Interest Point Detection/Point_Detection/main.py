@@ -17,7 +17,7 @@ while(cap.isOpened()):
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         gray = np.float32(gray)
-        dst = cv2.cornerHarris(gray,2,3,0.04)
+        dst = cv2.cornerHarris(gray,2,3,0.01)
         dst = cv2.dilate(dst,None)
         frame[dst>0.01*dst.max()]=[0,0,255]
 
