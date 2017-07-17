@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+import scipy
 import math
 import time as t
 from matplotlib import pyplot as plt
@@ -7,7 +8,6 @@ import matplotlib.image as mpimg
 import matplotlib.mlab as mlab
 from random import randint
 import copy
-
 
 cap = cv2.VideoCapture(0)
 
